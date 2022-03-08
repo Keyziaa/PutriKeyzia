@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: "Lucida Grande";
+  font-family: "Monoscape";
 }
 
 a {
@@ -22,7 +22,7 @@ a {
 }
 
 .top-wrapper {
-  padding: 180px 0 100px 0;
+  padding: 1500px 0 750px 0;
   background-image: url(https://raw.githubusercontent.com/Keyziaa/PutriKeyzia/main/WhatsApp%20Image%202022-03-08%20at%2009.55.33.jpeg);
   background-size: cover;
   color: white;
@@ -64,7 +64,7 @@ a {
 }
 
 .btn {
-  padding: 12px 24px;
+  padding: 15px 24px;
   color: white;
   display: inline-block;
   opacity: 0.8;
@@ -80,14 +80,7 @@ a {
   margin-right: 5px;
 }
 
-header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
-  position :fixed;
-  top: 0;
-  z-index: 10;
-}
+
 
 .logo {
   width: 124px;
@@ -106,7 +99,7 @@ header {
 .header-right a {
   line-height: 65px;
   padding: 0 25px;
-  color: white;
+  color: black;
   display: block;
   float: left;
   transition: all 0.5s;
@@ -122,6 +115,9 @@ header {
   font-size: 25px;
   padding: 21px 0;
   display: none;
+}
+.menu-icon img{
+ width : 200px;
 }
 
 .lesson-wrapper {
